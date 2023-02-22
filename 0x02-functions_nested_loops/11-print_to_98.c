@@ -1,38 +1,37 @@
-#include <stdio.h>
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_to_98 - prints all  numbers from n to 98
- * follwed by a new lne
- * @n: print from this number
+ * print_to_98 - prints all possible combinations of two two-digit numbers
+ * @n: condition number
+ * Return: 0 (Success)
  */
-
 void print_to_98(int n)
 {
-	int i, j;
-
-	if (n <= 98 )
+	if (n < 98)
 	{
-		for (i = n; i <= 98; i++)
+		while (n <= 98)
 		{
-			if (i != 98 )
-				printf("%d, ", i);
-
-			else if  (i == 98)
-				printf("%d\n", i);
+			printf("%d", n);
+			if (n != 98)
+			{
+				printf(", ");
+			};
+			n++;
+			}
+	}
+	else
+	{
+		while (n >= 98)
+		{
+			printf("%d", n);
+			if (n != 98)
+		{
+			printf(", ");
+		}
+		n--;
 		}
 	}
-	
-	else if (n >= 98)
-	{
-		for (j = n; j >= 98; j++)
-		{
-			if (j != 98)
-				printf("%d, ", j);
 
-			else if (j == 98)
-				printf("%d\n", j);
-		}
-
-	}
+	printf("\n");
 }
+
