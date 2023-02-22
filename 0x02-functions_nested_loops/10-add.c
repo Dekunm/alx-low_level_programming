@@ -1,17 +1,14 @@
 #include "main.h"
-
 /**
- * add - adds two integers 
- *@a: int to be added to b
- *@b: int to be added to a
- *Return : sum of a and b
+ * add - prints all possible combinations of two two-digit numbers
+ * @i: first digit
+ * @j: second digit
+ * Return: 0 (Success)
  */
-
-int add(int a, int b)
+int add(int i, int j)
 {
-	int c;
+	int sum;
 
-	c = a +b;
-       return (c);	
+	sum = i + j;
+	return (sum);
 }
- 
