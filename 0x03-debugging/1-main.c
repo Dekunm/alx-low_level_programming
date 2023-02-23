@@ -2,6 +2,7 @@
 
 /**
 * main - causes an infinite loop
+*Backslash: A backslash character used
 * Return: 0
 */
 
@@ -13,7 +14,7 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 
-/* *
+/**
 *while (i < 10)
 *{
 *       putchar(i);
