@@ -13,7 +13,6 @@ void print_rev(char *s)
 	int o;
 
 	while (*s != '\0')
-	
 	{
 		lng++;
 		s++;
