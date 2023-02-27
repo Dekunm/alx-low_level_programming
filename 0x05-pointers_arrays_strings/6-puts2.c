@@ -22,7 +22,7 @@ void puts2(char *str)
 	}
 		t = lng - 1;
 
-		for  (x = 0;x <= t; x++)
+		for  (x = 0; x <= t; x++)
 		{
 			if (x % 2 == 0)
 			{
