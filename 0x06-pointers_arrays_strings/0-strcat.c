@@ -2,15 +2,25 @@
 
 /**
  * This concatenates 2 strings
- * Returns:dest
+ * @dest: input value
+ * @src: input value
+ * Return: dest
  */
 
 char *_strcat(char *dest, char  *src);
 {
-	string1 = "dest";
-	string2 = "src";
+	int i;
+	int j;
 
-	strcat(string1, string2);
+	i  = 0;
+	while (dest[i] != '\0')
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
 
-	return (string1);
+
+	dest[i]  = '\0';
+	return (dest);
 }
