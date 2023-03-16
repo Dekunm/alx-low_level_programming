@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+
 
 /**
  * malloc_checked - cause normal process termination with status vvalue 98
@@ -9,12 +11,12 @@
 
 void *malloc_ckecked(unsigned int b)
 {
-	void *i;
+	void *ptr;
 
-	i = malloc(b);
-	if (i == NULL)
+	ptr  = malloc(b);
+	if (ptr == NULL)
 	{
 		exit(98);
 	}
-	return (i);
+	return (ptr);
 }
