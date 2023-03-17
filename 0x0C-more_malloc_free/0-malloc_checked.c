@@ -1,8 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
 
-
-
 /**
 * *malloc_checked: cause normal process termination with status value 98
 * @b:  Number of bytes to allocate
