@@ -3,7 +3,7 @@
 
 
 /**
- * malloc_checked - cause normal process termination with status vvalue 98
+ * 0_malloc_checked - cause normal process termination with status vvalue 98
  *
  * @b:  allocated memory
  *Return: a poiinter to tthe allocatetd memory
