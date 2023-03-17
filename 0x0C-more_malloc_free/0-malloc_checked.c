@@ -1,13 +1,13 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
+
 
 
 /**
- * 0_malloc_checked - cause normal process termination with status vvalue 98
- *
- * @b:  allocated memory
- *Return: a poiinter to tthe allocatetd memory
- */
+* *malloc_checked: cause normal process termination with status value 98
+* @b:  Number of bytes to allocate
+* Return: a pointer tothe allocatetd memory
+*/
 
 void *malloc_ckecked(unsigned int b)
 {
