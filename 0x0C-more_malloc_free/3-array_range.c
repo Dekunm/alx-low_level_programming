@@ -3,7 +3,7 @@
 
 /**
  * array_range - create an array of integers
- * @mn: miniimum  range of value  stored
+ * @min: miniimum  range of value  stored
  * @max: Maximum range of values and numbbber  of elements
  * Return: POINTER TO THE NEW ARRAY
  */
