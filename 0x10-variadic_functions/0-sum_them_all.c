@@ -12,7 +12,6 @@ int sum_them_all(const  unsigned int n, ...)
 
 	unsigned int pa, sum = 0;
 	va_list  pmtr;
-	
 	/* iterate throughh the arguument list from the  sttart */
 
 	va_start(pmtr, n);
